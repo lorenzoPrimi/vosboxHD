@@ -119,7 +119,7 @@
     searchString = [searchString stringByReplacingOccurrencesOfString:@" "
                                                            withString:@"%20"];
     
-    NSString *url = [NSString stringWithFormat: @"http://vosbox.org/dev/api/search.php?keywords=%@", searchString];
+    NSString *url = [NSString stringWithFormat: @"http://%@/api/search.php?keywords=%@", [self getUrl],searchString];
     
     NSLog(@"URL: %@",url);
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL: [NSURL URLWithString: url]];
