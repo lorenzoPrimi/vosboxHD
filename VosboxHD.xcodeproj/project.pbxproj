@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED0A24E1157ABAD900C58EC6 /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0A24D9157ABAD900C58EC6 /* forward.png */; };
+		ED0A24E2157ABAD900C58EC6 /* no_cover_320.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0A24DA157ABAD900C58EC6 /* no_cover_320.png */; };
+		ED0A24E3157ABAD900C58EC6 /* no_cover.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0A24DB157ABAD900C58EC6 /* no_cover.png */; };
+		ED0A24E4157ABAD900C58EC6 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0A24DC157ABAD900C58EC6 /* pause.png */; };
+		ED0A24E5157ABAD900C58EC6 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0A24DD157ABAD900C58EC6 /* play.png */; };
+		ED0A24E6157ABAD900C58EC6 /* rewind.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0A24DE157ABAD900C58EC6 /* rewind.png */; };
+		ED0A24E7157ABAD900C58EC6 /* volume_down.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0A24DF157ABAD900C58EC6 /* volume_down.png */; };
+		ED0A24E8157ABAD900C58EC6 /* volume_up.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0A24E0157ABAD900C58EC6 /* volume_up.png */; };
+		ED0A24EA157ABC2A00C58EC6 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0A24E9157ABC2A00C58EC6 /* stop.png */; };
+		ED0A24ED157AC2F500C58EC6 /* VosboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0A24EC157AC2F500C58EC6 /* VosboxViewController.m */; };
+		ED0A24EF157ACB0400C58EC6 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ED0A24EE157ACB0400C58EC6 /* Settings.bundle */; };
+		ED230A7A1581020A00F9EEFB /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = ED230A791581020A00F9EEFB /* AudioStreamer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		ED230A7F158102A800F9EEFB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED230A7C158102A800F9EEFB /* AudioToolbox.framework */; };
+		ED230A80158102A800F9EEFB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED230A7D158102A800F9EEFB /* CFNetwork.framework */; };
+		ED230A81158102A800F9EEFB /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED230A7E158102A800F9EEFB /* MediaPlayer.framework */; };
+		ED5A34A41587905C00F87C99 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5A34A31587905C00F87C99 /* NSString+MD5.m */; };
+		ED5A34A81588839700F87C99 /* PlaylistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5A34A71588839700F87C99 /* PlaylistViewController.m */; };
+		EDC0C16F157921BB002462C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC0C16E157921BB002462C8 /* UIKit.framework */; };
+		EDC0C171157921BB002462C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC0C170157921BB002462C8 /* Foundation.framework */; };
+		EDC0C173157921BB002462C8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC0C172157921BB002462C8 /* CoreGraphics.framework */; };
+		EDC0C179157921BC002462C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDC0C177157921BC002462C8 /* InfoPlist.strings */; };
+		EDC0C17B157921BC002462C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC0C17A157921BC002462C8 /* main.m */; };
+		EDC0C17F157921BC002462C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC0C17E157921BC002462C8 /* AppDelegate.m */; };
+		EDC0C182157921BC002462C8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC0C180157921BC002462C8 /* MainStoryboard.storyboard */; };
+		EDC2E75315B332B8002DDED8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EDC2E75215B332B8002DDED8 /* Icon.png */; };
+		EDC2E75615B332BA002DDED8 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDC2E75515B332BA002DDED8 /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED0A24D9157ABAD900C58EC6 /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
+		ED0A24DA157ABAD900C58EC6 /* no_cover_320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_cover_320.png; sourceTree = "<group>"; };
+		ED0A24DB157ABAD900C58EC6 /* no_cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_cover.png; sourceTree = "<group>"; };
+		ED0A24DC157ABAD900C58EC6 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		ED0A24DD157ABAD900C58EC6 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		ED0A24DE157ABAD900C58EC6 /* rewind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rewind.png; sourceTree = "<group>"; };
+		ED0A24DF157ABAD900C58EC6 /* volume_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volume_down.png; sourceTree = "<group>"; };
+		ED0A24E0157ABAD900C58EC6 /* volume_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volume_up.png; sourceTree = "<group>"; };
+		ED0A24E9157ABC2A00C58EC6 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		ED0A24EB157AC2F500C58EC6 /* VosboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VosboxViewController.h; sourceTree = "<group>"; };
+		ED0A24EC157AC2F500C58EC6 /* VosboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VosboxViewController.m; sourceTree = "<group>"; };
+		ED0A24EE157ACB0400C58EC6 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = ../Settings.bundle; sourceTree = "<group>"; };
+		ED230A761580E13700F9EEFB /* WebServiceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebServiceManager.h; sourceTree = "<group>"; };
+		ED230A781581020A00F9EEFB /* AudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioStreamer.h; sourceTree = "<group>"; };
+		ED230A791581020A00F9EEFB /* AudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioStreamer.m; sourceTree = "<group>"; };
+		ED230A7C158102A800F9EEFB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		ED230A7D158102A800F9EEFB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		ED230A7E158102A800F9EEFB /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		ED5A34A21587905C00F87C99 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		ED5A34A31587905C00F87C99 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		ED5A34A61588839700F87C99 /* PlaylistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistViewController.h; sourceTree = "<group>"; };
+		ED5A34A71588839700F87C99 /* PlaylistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaylistViewController.m; sourceTree = "<group>"; };
+		EDC0C16A157921BB002462C8 /* VosboxHD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VosboxHD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC0C16E157921BB002462C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EDC0C170157921BB002462C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EDC0C172157921BB002462C8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EDC0C176157921BC002462C8 /* VosboxHD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VosboxHD-Info.plist"; sourceTree = "<group>"; };
+		EDC0C178157921BC002462C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EDC0C17A157921BC002462C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDC0C17C157921BC002462C8 /* VosboxHD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VosboxHD-Prefix.pch"; sourceTree = "<group>"; };
+		EDC0C17D157921BC002462C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDC0C17E157921BC002462C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDC0C181157921BC002462C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EDC2E75215B332B8002DDED8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../Icon.png; sourceTree = "<group>"; };
+		EDC2E75515B332BA002DDED8 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../../Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDC0C167157921BB002462C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC0C16F157921BB002462C8 /* UIKit.framework in Frameworks */,
+				EDC0C171157921BB002462C8 /* Foundation.framework in Frameworks */,
+				EDC0C173157921BB002462C8 /* CoreGraphics.framework in Frameworks */,
+				ED230A7F158102A800F9EEFB /* AudioToolbox.framework in Frameworks */,
+				ED230A80158102A800F9EEFB /* CFNetwork.framework in Frameworks */,
+				ED230A81158102A800F9EEFB /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED0A24C9157AB88200C58EC6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EDC2E75515B332BA002DDED8 /* Icon@2x.png */,
+				EDC2E75215B332B8002DDED8 /* Icon.png */,
+				ED0A24D9157ABAD900C58EC6 /* forward.png */,
+				ED0A24E9157ABC2A00C58EC6 /* stop.png */,
+				ED0A24DA157ABAD900C58EC6 /* no_cover_320.png */,
+				ED0A24DB157ABAD900C58EC6 /* no_cover.png */,
+				ED0A24DC157ABAD900C58EC6 /* pause.png */,
+				ED0A24DD157ABAD900C58EC6 /* play.png */,
+				ED0A24DE157ABAD900C58EC6 /* rewind.png */,
+				ED0A24DF157ABAD900C58EC6 /* volume_down.png */,
+				ED0A24E0157ABAD900C58EC6 /* volume_up.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		EDC0C15F157921BB002462C8 = {
+			isa = PBXGroup;
+			children = (
+				EDC0C174157921BB002462C8 /* VosboxHD */,
+				EDC0C16D157921BB002462C8 /* Frameworks */,
+				EDC0C16B157921BB002462C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDC0C16B157921BB002462C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDC0C16A157921BB002462C8 /* VosboxHD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDC0C16D157921BB002462C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED230A7C158102A800F9EEFB /* AudioToolbox.framework */,
+				ED230A7D158102A800F9EEFB /* CFNetwork.framework */,
+				ED230A7E158102A800F9EEFB /* MediaPlayer.framework */,
+				EDC0C16E157921BB002462C8 /* UIKit.framework */,
+				EDC0C170157921BB002462C8 /* Foundation.framework */,
+				EDC0C172157921BB002462C8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDC0C174157921BB002462C8 /* VosboxHD */ = {
+			isa = PBXGroup;
+			children = (
+				ED0A24C9157AB88200C58EC6 /* Images */,
+				EDC0C17D157921BC002462C8 /* AppDelegate.h */,
+				EDC0C17E157921BC002462C8 /* AppDelegate.m */,
+				ED230A781581020A00F9EEFB /* AudioStreamer.h */,
+				ED230A791581020A00F9EEFB /* AudioStreamer.m */,
+				ED5A34A21587905C00F87C99 /* NSString+MD5.h */,
+				ED5A34A31587905C00F87C99 /* NSString+MD5.m */,
+				EDC0C180157921BC002462C8 /* MainStoryboard.storyboard */,
+				EDC0C175157921BC002462C8 /* Supporting Files */,
+				ED0A24EB157AC2F500C58EC6 /* VosboxViewController.h */,
+				ED0A24EC157AC2F500C58EC6 /* VosboxViewController.m */,
+				ED5A34A61588839700F87C99 /* PlaylistViewController.h */,
+				ED5A34A71588839700F87C99 /* PlaylistViewController.m */,
+				ED0A24EE157ACB0400C58EC6 /* Settings.bundle */,
+				ED230A761580E13700F9EEFB /* WebServiceManager.h */,
+			);
+			path = VosboxHD;
+			sourceTree = "<group>";
+		};
+		EDC0C175157921BC002462C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDC0C176157921BC002462C8 /* VosboxHD-Info.plist */,
+				EDC0C177157921BC002462C8 /* InfoPlist.strings */,
+				EDC0C17A157921BC002462C8 /* main.m */,
+				EDC0C17C157921BC002462C8 /* VosboxHD-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDC0C169157921BB002462C8 /* VosboxHD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC0C188157921BC002462C8 /* Build configuration list for PBXNativeTarget "VosboxHD" */;
+			buildPhases = (
+				EDC0C166157921BB002462C8 /* Sources */,
+				EDC0C167157921BB002462C8 /* Frameworks */,
+				EDC0C168157921BB002462C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VosboxHD;
+			productName = VosboxHD;
+			productReference = EDC0C16A157921BB002462C8 /* VosboxHD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDC0C161157921BB002462C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "K2 Technology";
+			};
+			buildConfigurationList = EDC0C164157921BB002462C8 /* Build configuration list for PBXProject "VosboxHD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EDC0C15F157921BB002462C8;
+			productRefGroup = EDC0C16B157921BB002462C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDC0C169157921BB002462C8 /* VosboxHD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDC0C168157921BB002462C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC0C179157921BC002462C8 /* InfoPlist.strings in Resources */,
+				EDC0C182157921BC002462C8 /* MainStoryboard.storyboard in Resources */,
+				ED0A24E1157ABAD900C58EC6 /* forward.png in Resources */,
+				ED0A24E2157ABAD900C58EC6 /* no_cover_320.png in Resources */,
+				ED0A24E3157ABAD900C58EC6 /* no_cover.png in Resources */,
+				ED0A24E4157ABAD900C58EC6 /* pause.png in Resources */,
+				ED0A24E5157ABAD900C58EC6 /* play.png in Resources */,
+				ED0A24E6157ABAD900C58EC6 /* rewind.png in Resources */,
+				ED0A24E7157ABAD900C58EC6 /* volume_down.png in Resources */,
+				ED0A24E8157ABAD900C58EC6 /* volume_up.png in Resources */,
+				ED0A24EA157ABC2A00C58EC6 /* stop.png in Resources */,
+				ED0A24EF157ACB0400C58EC6 /* Settings.bundle in Resources */,
+				EDC2E75315B332B8002DDED8 /* Icon.png in Resources */,
+				EDC2E75615B332BA002DDED8 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDC0C166157921BB002462C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC0C17B157921BC002462C8 /* main.m in Sources */,
+				EDC0C17F157921BC002462C8 /* AppDelegate.m in Sources */,
+				ED0A24ED157AC2F500C58EC6 /* VosboxViewController.m in Sources */,
+				ED230A7A1581020A00F9EEFB /* AudioStreamer.m in Sources */,
+				ED5A34A41587905C00F87C99 /* NSString+MD5.m in Sources */,
+				ED5A34A81588839700F87C99 /* PlaylistViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDC0C177157921BC002462C8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC0C178157921BC002462C8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EDC0C180157921BC002462C8 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC0C181157921BC002462C8 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDC0C186157921BC002462C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Pasquale Del Cioppo (649R6YSYRM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Pasquale Del Cioppo (649R6YSYRM)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "10A116FB-F120-4121-BEC5-9789FE23978E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "10A116FB-F120-4121-BEC5-9789FE23978E";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EDC0C187157921BC002462C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Pasquale Del Cioppo (649R6YSYRM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Pasquale Del Cioppo (649R6YSYRM)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "10A116FB-F120-4121-BEC5-9789FE23978E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "10A116FB-F120-4121-BEC5-9789FE23978E";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDC0C189157921BC002462C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Pasquale Del Cioppo (649R6YSYRM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Pasquale Del Cioppo (649R6YSYRM)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VosboxHD/VosboxHD-Prefix.pch";
+				INFOPLIST_FILE = "VosboxHD/VosboxHD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "10A116FB-F120-4121-BEC5-9789FE23978E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "10A116FB-F120-4121-BEC5-9789FE23978E";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EDC0C18A157921BC002462C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Pasquale Del Cioppo (649R6YSYRM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Pasquale Del Cioppo (649R6YSYRM)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VosboxHD/VosboxHD-Prefix.pch";
+				INFOPLIST_FILE = "VosboxHD/VosboxHD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "10A116FB-F120-4121-BEC5-9789FE23978E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "10A116FB-F120-4121-BEC5-9789FE23978E";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDC0C164157921BB002462C8 /* Build configuration list for PBXProject "VosboxHD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC0C186157921BC002462C8 /* Debug */,
+				EDC0C187157921BC002462C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC0C188157921BC002462C8 /* Build configuration list for PBXNativeTarget "VosboxHD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC0C189157921BC002462C8 /* Debug */,
+				EDC0C18A157921BC002462C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDC0C161157921BB002462C8 /* Project object */;
+}
